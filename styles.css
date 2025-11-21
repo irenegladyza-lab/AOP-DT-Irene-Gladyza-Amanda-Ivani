@@ -1,0 +1,212 @@
+body {
+     background-image: linear-gradient(315deg, rgba(250, 255, 199, 1) 18%, rgba(219, 136, 164, 1) 80%);
+}
+
+body {
+    cursor: url(tiger.cur.png), auto;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.title h1{
+    display: flex;
+    font-family:"Poppins", "Sans-Serif";
+    align-items: center;
+  font-size: 50px;
+  background:linear-gradient(to right, #A4C3B2, #6B9080, #A33757, #DC586D, #FB9590, #FFBB94,#A4C3B2) ;
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 2.5s linear infinite;
+}
+
+
+@keyframes animate-gradient{
+  to{
+    background-position: 200%;
+  }
+}
+
+
+
+
+.titledesc{
+    font-family:"Poppins", "Sans-Serif";
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.title img {
+    vertical-align: middle;
+    margin-right: 15px;
+    width: 55px;
+    height: 55px;
+}
+
+.card-container {
+    
+    display: flex; 
+    
+   
+    justify-content: center; 
+    
+   
+    gap: 30px; 
+    
+    padding: 50px 0;
+}
+
+.music-card1 {
+width: 25%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    justify-content: center; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 255, 255, 0.1); 
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.music-card2 {
+width: 25%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 255, 255, 0.1); 
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.music-card3 {
+width: 25%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 255, 255, 0.1); 
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.card-container1 {
+width: 25%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content: center; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 255, 255, 0.1); 
+    text-align: center;
+    color: #f0f0f0;
+}
+
+    
+
+.music-card img{
+    width:100%;
+    aspect-ratio: 1 / 1;
+    object-fit:cover;
+    border-radius:8px;
+    display:block;
+
+}
+.artist {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 2px 0; 
+    color: #A33757;
+}
+
+.songtitle {
+    font-size: 15px;
+    color: #000000;
+    margin: 0 0 10px 0;
+    
+}
+
+.cover-image1 {
+   width: 90%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+
+}
+.cover-image2 {
+   width: 90%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+
+}
+.cover-image3 {
+   width: 90%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+
+}
+.cover-image4 {
+   width: 90%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+
+}
+
+.isi{
+      font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 2px 0; 
+    color: #A33757;
+    
+}
+
+.kesan{
+    font-size: 15px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.isi-kesan{
+    font-size: 15px;
+    color: #000000;
+    margin: 0 0 10px 0;
+    
+}
+
+
+
+
